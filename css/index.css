@@ -1,0 +1,92 @@
+.mainpage {
+    height: 100vh;
+    background: #030637;
+
+}
+
+.game-body {
+    width: 100%;
+    position: relative;
+
+}
+.game-body  h2{
+    color: aliceblue;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+.game-body  p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.gameboard {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.gameboard button {
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 0px;
+    background: whitesmoke;
+    color: black;
+    outline: none;
+    border: none;
+    /* box-shadow: 0 0 20px 1px rgb(163, 163, 163); */
+    border-radius: 10px;
+}
+
+.popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: auto;
+    width: 70%;
+    height: 70vh;
+    color: white;
+    background: #3C0753;
+    visibility: hidden;
+}
+
+.winner {
+    line-height: 300px;
+    font-size: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.popup button {
+    background: none;
+    border: 2px solid white;
+    width: 100px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+.popup button:hover{
+    background: rgb(79, 219, 121);
+}
+.restart{
+    padding:0 20px 0px 20px;
+    outline: none;
+    color: black;
+    border: 2px solid rgb(92, 75, 146);
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.restart:hover{
+    background: rgb(110, 88, 130);
+    color: white;
+}
